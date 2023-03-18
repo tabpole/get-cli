@@ -1,13 +1,13 @@
 export default {
-    title: 'Docker Handbook',
-    description: 'Docker Handbook',
-    base : '/docker/',
+    title: 'Get CLI',
+    description: 'Get Cli',
+    base : '/get-cli/',
     lastUpdated: true,
     lang: 'en-US',
     cleanUrls: true,
 
     themeConfig: {
-      siteTitle: 'Docker Handbook',
+      siteTitle: 'Get CLI',
       logo : '/logo.png',
 
       // algolia: {
@@ -17,7 +17,7 @@ export default {
       // },
 
       editLink: {
-        pattern: 'https://github.com/tabpole/docker/tree/main/docs/:path',
+        pattern: 'https://github.com/tabpole/get-cli/tree/main/docs/:path',
         text: 'Edit this page on GitHub'
       },
 
@@ -28,7 +28,7 @@ export default {
         { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith'},
       ],
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/tabpole/docker-handbook' },
+        { icon: 'github', link: 'https://github.com/jonataslaw/get_cli' },
       ],
 
       sidebar: [
@@ -45,25 +45,14 @@ export default {
           text: 'Concepts',
           // collapsed: false,
           items: [
-            { text: 'Image', link: 'concepts/image.md' },
-            { text: 'Container', link: 'concepts/container.md' },
-            { text: 'Image vs Container', link: 'concepts/image_vs_container.md' },
-            { text: 'Volume', link: 'concepts/volume.md' },
-            { text: 'Registry', link: 'concepts/registry.md' },
+            { text: 'CLI', link: 'concepts/cli.md' },
           ],
         },
         {
           text: 'Examples',
           // collapsed: false,
           items: [
-            { 
-              text: 'Hello World',
-              link: 'examples/hello_world.md',
-            },
-            { 
-              text: 'Ubuntu',
-              link: 'examples/ubuntu.md',
-            },
+            {  text: 'Page', link: 'examples/page.md'},
           ],
         },
         {
