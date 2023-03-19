@@ -26,9 +26,9 @@ You can use it to create a new Flutter project with the necessary files and dire
 - Install on Linux
 - Remove from Linux
 
-### Concepts
+### Commands
 
-- Page
+- Project
 
 ### Examples
 

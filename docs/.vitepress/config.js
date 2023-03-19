@@ -34,30 +34,45 @@ export default {
       sidebar: [
         {
           text: 'Getting Started',
-          // collapsed: false,
+          collapsed: true,
           items: [
             { text: 'Overview', link: 'getting_started/overview.md' },
-            { text: 'Install on Linux', link: 'getting_started/install_on_linux.md' },
-            { text: 'Remove from Linux', link: 'getting_started/uninstall_from_linux.md' },
+            { text: 'Installation', link: 'getting_started/installation.md' },
+            { text: 'Uninstall', link: 'getting_started/uninstall.md' },
           ],
         },
         {
-          text: 'Concepts',
-          // collapsed: false,
+          text: 'Commands',
+          collapsed: false,
           items: [
-            { text: 'CLI', link: 'concepts/cli.md' },
+            { text: 'Project', link: 'commands/project.md' },
+            { text: 'Model', link: 'commands/model.md' },
+            { text: 'View', link: 'commands/view.md' },
+            { text: 'Controller', link: 'commands/controller.md' },
+            { text: 'Page', link: 'commands/page.md' },
+            { text: 'Screen', link: 'commands/screen.md' },
+            { text: 'Locale', link: 'commands/locale.md' },
+          ],
+        },
+        {
+          text: 'Packages',
+          collapsed: true,
+          items: [
+            { text: 'Install', link: 'packages/install.md' },
+            { text: 'Update', link: 'packages/update.md' },
+            { text: 'Remove', link: 'packages/remove.md' },
           ],
         },
         {
           text: 'Examples',
-          // collapsed: false,
+          collapsed: true,
           items: [
             {  text: 'Page', link: 'examples/page.md'},
           ],
         },
         {
           text: 'Resources',
-          // collapsed: false,
+          collapsed: true,
           items: [
             { text: 'Playlists', link: 'resources/playlist.md' },
             { text: 'Tools', link: 'resources/tool.md' },

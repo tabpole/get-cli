@@ -4,7 +4,7 @@ A simple and short Docker guideline.
 
 ## Website
 
-To visit the website [click here](https://tabpole.github.io/docker/).
+To visit the website [click here](https://tabpole.github.io/get-cli).
 
 ## How to run on local machine
 
