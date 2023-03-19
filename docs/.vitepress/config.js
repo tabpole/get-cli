@@ -1,13 +1,13 @@
 export default {
-    title: 'Docker Handbook',
-    description: 'Docker Handbook',
-    base : '/docker/',
+    title: 'Get CLI',
+    description: 'Get Cli',
+    base : '/get-cli/',
     lastUpdated: true,
     lang: 'en-US',
     cleanUrls: true,
 
     themeConfig: {
-      siteTitle: 'Docker Handbook',
+      siteTitle: 'Get CLI',
       logo : '/logo.png',
 
       // algolia: {
@@ -17,7 +17,7 @@ export default {
       // },
 
       editLink: {
-        pattern: 'https://github.com/tabpole/docker/tree/main/docs/:path',
+        pattern: 'https://github.com/tabpole/get-cli/tree/main/docs/:path',
         text: 'Edit this page on GitHub'
       },
 
@@ -28,47 +28,51 @@ export default {
         { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith'},
       ],
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/tabpole/docker-handbook' },
+        { icon: 'github', link: 'https://github.com/jonataslaw/get_cli' },
       ],
 
       sidebar: [
         {
           text: 'Getting Started',
-          // collapsed: false,
+          collapsed: true,
           items: [
             { text: 'Overview', link: 'getting_started/overview.md' },
-            { text: 'Install on Linux', link: 'getting_started/install_on_linux.md' },
-            { text: 'Remove from Linux', link: 'getting_started/uninstall_from_linux.md' },
+            { text: 'Installation', link: 'getting_started/installation.md' },
+            { text: 'Uninstall', link: 'getting_started/uninstall.md' },
           ],
         },
         {
-          text: 'Concepts',
-          // collapsed: false,
+          text: 'Commands',
+          collapsed: false,
           items: [
-            { text: 'Image', link: 'concepts/image.md' },
-            { text: 'Container', link: 'concepts/container.md' },
-            { text: 'Image vs Container', link: 'concepts/image_vs_container.md' },
-            { text: 'Volume', link: 'concepts/volume.md' },
-            { text: 'Registry', link: 'concepts/registry.md' },
+            { text: 'Project', link: 'commands/project.md' },
+            { text: 'Model', link: 'commands/model.md' },
+            { text: 'View', link: 'commands/view.md' },
+            { text: 'Controller', link: 'commands/controller.md' },
+            { text: 'Page', link: 'commands/page.md' },
+            { text: 'Screen', link: 'commands/screen.md' },
+            { text: 'Locale', link: 'commands/locale.md' },
+          ],
+        },
+        {
+          text: 'Packages',
+          collapsed: true,
+          items: [
+            { text: 'Install', link: 'packages/install.md' },
+            { text: 'Update', link: 'packages/update.md' },
+            { text: 'Remove', link: 'packages/remove.md' },
           ],
         },
         {
           text: 'Examples',
-          // collapsed: false,
+          collapsed: true,
           items: [
-            { 
-              text: 'Hello World',
-              link: 'examples/hello_world.md',
-            },
-            { 
-              text: 'Ubuntu',
-              link: 'examples/ubuntu.md',
-            },
+            {  text: 'Page', link: 'examples/page.md'},
           ],
         },
         {
           text: 'Resources',
-          // collapsed: false,
+          collapsed: true,
           items: [
             { text: 'Playlists', link: 'resources/playlist.md' },
             { text: 'Tools', link: 'resources/tool.md' },

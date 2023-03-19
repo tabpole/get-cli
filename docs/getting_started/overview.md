@@ -8,17 +8,15 @@ next:
 
 
 
-# Docker Handbook
+# Get CLI
 
-A simple and short Docker guideline
+A simple and short Get CLI guideline
 
 ## Introduction
 
-Docker is an open-source platform that allows you to develop, deploy, and run applications in a containerized environment. Docker provides an efficient way to package and distribute applications, making it easier to move them from one environment to another.
+Get CLI provides a set of commands that developers can use to quickly generate files and directories for different types of projects. It is designed to be extensible, allowing developers to create their own templates and generators for custom project types.
 
-Docker uses a client-server architecture, with the Docker client communicating with the Docker daemon to manage containers and images. Docker images are the building blocks of containers and they contain the application and all its dependencies. Docker containers are instances of Docker images, and they can be started, stopped, and restarted as needed. Each container runs in its own isolated environment with its own file system, networking, and resources. This allows for consistent application behavior across different environments including development, testing, and production.
-
-Docker has become increasingly popular in recent years due to its many benefits, including portability, scalability, and efficiency. With Docker, you can easily create, deploy, and manage applications, making it an essential tool for modern software development.
+You can use it to create a new Flutter project with the necessary files and directory structure already set up.
 
 ## Table of Content
 
@@ -28,18 +26,13 @@ Docker has become increasingly popular in recent years due to its many benefits,
 - Install on Linux
 - Remove from Linux
 
-### Concepts
+### Commands
 
-- Image
-- Container
-- Image vs Container
-- Volume
-- Registry
+- Project
 
 ### Examples
 
-- Hello World
-- Ubuntu
+- Page
 
 ### Resources
 
@@ -48,10 +41,9 @@ Docker has become increasingly popular in recent years due to its many benefits,
 
 ## Conclusion
 
-Docker is a software platform that allows you to build, package, and deploy applications in containers. Containers are lightweight, standalone, and portable environments that encapsulate an application and all its dependencies. Docker provides a consistent environment for application development and deployment, making it easier to manage and deploy applications.
+Get CLI tool is a program that allows users to interact with a computer using textual commands entered through a command-line interface. CLI tools are often used for tasks such as software installation, file manipulation, and system administration, among others.
 
 ## References
 
 - ChatGpt [-->](https://chat.openai.com)
-- The Docker Handbook [-->](https://www.freecodecamp.org/news/the-docker-handbook)
-- Official Documentation [-->](https://docs.docker.com)
+- Official Documentation [-->](https://github.com/jonataslaw/get_cli)
