@@ -10,17 +10,14 @@ hero:
     alt: Get CLI
   actions:
     - theme: brand
-      text: Support
-      link: https://www.buymeacoffee.com/alpondith
-    - theme: brand
-      text: Discord
-      link: https://discord.com/invite/KcVt8uz8yX
-    - theme: alt
       text: Get Started
       link: getting_started/overview.md
     - theme: alt
-      text: GitHub
+      text: Package GitHub
       link: https://github.com/jonataslaw/get_cli
+    - theme: alt
+      text: Doc GitHub
+      link: https://github.com/tabpole/get-cli
 
 features:
 
