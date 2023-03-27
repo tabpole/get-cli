@@ -55,29 +55,28 @@ export default {
           ],
         },
         {
-          text: 'Packages',
-          collapsed: true,
+          text: 'Package Management',
+          collapsed: false,
           items: [
-            { text: 'Install', link: 'packages/install.md' },
-            { text: 'Update', link: 'packages/update.md' },
-            { text: 'Remove', link: 'packages/remove.md' },
+            { text: 'Install', link: 'package_management/install.md' },
+            { text: 'Remove', link: 'package_management/remove.md' },
           ],
         },
-        {
-          text: 'Examples',
-          collapsed: true,
-          items: [
-            {  text: 'Page', link: 'examples/page.md'},
-          ],
-        },
-        {
-          text: 'Resources',
-          collapsed: true,
-          items: [
-            { text: 'Playlists', link: 'resources/playlist.md' },
-            { text: 'Tools', link: 'resources/tool.md' },
-          ],
-        },
+        // {
+        //   text: 'Examples',
+        //   collapsed: true,
+        //   items: [
+        //     {  text: 'Page', link: 'examples/page.md'},
+        //   ],
+        // },
+        // {
+        //   text: 'Resources',
+        //   collapsed: true,
+        //   items: [
+        //     { text: 'Playlists', link: 'resources/playlist.md' },
+        //     { text: 'Tools', link: 'resources/tool.md' },
+        //   ],
+        // },
       ],
       footer: {
         message: 'Released under the MIT License.',
