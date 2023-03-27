@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Controller'
+  link: 'commands/controller.md'
+next:
+  text: 'Screen'
+  link: 'commands/screen.md'
+---
+
 # Create page
 
 ```shell

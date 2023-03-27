@@ -1,9 +1,10 @@
 ---
 prev:
-  text: 'Install on Linux'
-  link: 'getting_started/install_on_linux.md'
-
-next: false
+  text: 'Install'
+  link: '/getting_started/install.md'
+next:
+  text: 'Model'
+  link: 'commands/model.md'
 ---
 
 # Create project

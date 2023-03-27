@@ -2,11 +2,9 @@
 prev: false
 
 next:
-  text: 'Install on Linux'
-  link: 'getting_started/install_on_linux.md'
+  text: 'Install'
+  link: 'getting_started/install.md'
 ---
-
-
 
 # Get CLI
 
@@ -23,21 +21,22 @@ You can use it to create a new Flutter project with the necessary files and dire
 ### Getting Started
 
 - Overview
-- Install on Linux
-- Remove from Linux
+- Install
 
 ### Commands
 
 - Project
-
-### Examples
-
+- Model
+- View
+- Controller
 - Page
+- Screen
+- Locale
 
-### Resources
+### Package Management
 
-- Playlists
-- Tools
+- Install
+- Remove
 
 ## Conclusion
 

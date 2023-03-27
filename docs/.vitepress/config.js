@@ -34,11 +34,11 @@ export default {
       sidebar: [
         {
           text: 'Getting Started',
-          collapsed: true,
+          collapsed: false,
           items: [
             { text: 'Overview', link: 'getting_started/overview.md' },
-            { text: 'Installation', link: 'getting_started/installation.md' },
-            { text: 'Uninstall', link: 'getting_started/uninstall.md' },
+            { text: 'Install', link: 'getting_started/install.md' },
+            // { text: 'Uninstall', link: 'getting_started/uninstall.md' },
           ],
         },
         {

@@ -1,3 +1,10 @@
+---
+prev:
+  text: 'Package Install'
+  link: 'package_management/install.md'
+next: false
+---
+
 # Remove Package
 
 ## Package removal

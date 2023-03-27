@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Locale'
+  link: 'commands/locale.md'
+next:
+  text: 'Package Remove'
+  link: 'package_management/remove.md'
+---
+
 # Install Package
 
 ## Package installation
