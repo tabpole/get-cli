@@ -1,102 +1,87 @@
 export default {
-    title: 'Get CLI',
-    description: 'Get Cli',
-    base : '/get-cli/',
-    lastUpdated: true,
-    lang: 'en-US',
-    cleanUrls: true,
+  title: 'Get CLI',
+  description: 'Get Cli',
+  base: '/',
+  lastUpdated: true,
+  lang: 'en-US',
+  cleanUrls: true,
 
-    markdown: {
-      theme: 'material-theme-palenight',
-      lineNumbers: true,
-      anchors: {
-        slugify(str) {
-          return encodeURIComponent(str)
-        }
-      }
+  themeConfig: {
+    siteTitle: 'Get CLI',
+    logo: '/logo.png',
+
+    // algolia: {
+    //   appId: '9O9QAU72UI',
+    //   apiKey: '03fb7c8b14ef1a61c79b3ae737f2f4e0',
+    //   indexName: 'ker'
+    // },
+
+    editLink: {
+      pattern: 'https://github.com/tabpole/get-cli/tree/main/docs/:path',
+      text: 'Edit this page on GitHub'
     },
 
-    head: [
-      [ 'script', { async: '' , src: "https://www.googletagmanager.com/gtag/js?id=G-GXS7ZDF2SB" } ],
-      // Output : <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKY7NL3WQV"></script>
-      [ 'script', {} , "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GXS7ZDF2SB');" ],
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'About', link: '/about' },
+      { text: 'Documentation', link: 'getting_started/overview.md' },
+      { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith' },
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/jonataslaw/get_cli' },
     ],
 
-    themeConfig: {
-      siteTitle: 'Get CLI',
-      logo : '/logo.png',
-
-      // algolia: {
-      //   appId: '9O9QAU72UI',
-      //   apiKey: '03fb7c8b14ef1a61c79b3ae737f2f4e0',
-      //   indexName: 'ker'
-      // },
-
-      editLink: {
-        pattern: 'https://github.com/tabpole/get-cli/tree/main/docs/:path',
-        text: 'Edit this page on GitHub'
+    sidebar: [
+      {
+        text: 'Getting Started',
+        collapsed: true,
+        items: [
+          { text: 'Overview', link: 'getting_started/overview.md' },
+          { text: 'Installation', link: 'getting_started/installation.md' },
+          { text: 'Uninstall', link: 'getting_started/uninstall.md' },
+        ],
       },
-
-      nav: [
-        { text: 'Home', link: '/' },
-        { text: 'Documentation', link: 'getting_started/overview.md' },
-        { text: 'About', link: 'https://tabpole.github.io' },
-        { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith'},
-      ],
-      socialLinks: [
-        { icon: 'github', link: 'https://github.com/jonataslaw/get_cli' },
-      ],
-
-      sidebar: [
-        {
-          text: 'Getting Started',
-          collapsed: false,
-          items: [
-            { text: 'Overview', link: 'getting_started/overview.md' },
-            { text: 'Install', link: 'getting_started/install.md' },
-            // { text: 'Uninstall', link: 'getting_started/uninstall.md' },
-          ],
-        },
-        {
-          text: 'Commands',
-          collapsed: false,
-          items: [
-            { text: 'Project', link: 'commands/project.md' },
-            { text: 'Model', link: 'commands/model.md' },
-            { text: 'View', link: 'commands/view.md' },
-            { text: 'Controller', link: 'commands/controller.md' },
-            { text: 'Page', link: 'commands/page.md' },
-            { text: 'Screen', link: 'commands/screen.md' },
-            { text: 'Locale', link: 'commands/locale.md' },
-          ],
-        },
-        {
-          text: 'Package Management',
-          collapsed: false,
-          items: [
-            { text: 'Install', link: 'package_management/install.md' },
-            { text: 'Remove', link: 'package_management/remove.md' },
-          ],
-        },
-        // {
-        //   text: 'Examples',
-        //   collapsed: true,
-        //   items: [
-        //     {  text: 'Page', link: 'examples/page.md'},
-        //   ],
-        // },
-        // {
-        //   text: 'Resources',
-        //   collapsed: true,
-        //   items: [
-        //     { text: 'Playlists', link: 'resources/playlist.md' },
-        //     { text: 'Tools', link: 'resources/tool.md' },
-        //   ],
-        // },
-      ],
-      footer: {
-        message: 'Released under the MIT License.',
-        copyright: 'Copyright © 2023 @tabpole'
-      }
-    },
-  }
+      {
+        text: 'Commands',
+        collapsed: false,
+        items: [
+          { text: 'Project', link: 'commands/project.md' },
+          { text: 'Model', link: 'commands/model.md' },
+          { text: 'View', link: 'commands/view.md' },
+          { text: 'Controller', link: 'commands/controller.md' },
+          { text: 'Page', link: 'commands/page.md' },
+          { text: 'Screen', link: 'commands/screen.md' },
+          { text: 'Locale', link: 'commands/locale.md' },
+        ],
+      },
+      {
+        text: 'Packages',
+        collapsed: true,
+        items: [
+          { text: 'Install', link: 'packages/install.md' },
+          { text: 'Update', link: 'packages/update.md' },
+          { text: 'Remove', link: 'packages/remove.md' },
+        ],
+      },
+      {
+        text: 'Examples',
+        collapsed: true,
+        items: [
+          { text: 'Page', link: 'examples/page.md' },
+        ],
+      },
+      {
+        text: 'Resources',
+        collapsed: true,
+        items: [
+          { text: 'Playlists', link: 'resources/playlist.md' },
+          { text: 'Tools', link: 'resources/tool.md' },
+        ],
+      },
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023 @tabpole'
+    }
+  },
+}
